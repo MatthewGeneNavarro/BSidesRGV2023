@@ -20,7 +20,7 @@ Its important to audit your environment to see if you still have LM/NTLMv1 enabl
 ###### Disabling LM & NTLMv1
 How do we know what computers have LM/NTLMv1 version support. Here is what Microsoft has to say about it.  
 
-> In Windows 7 and Windows Vista, this [[#Controlling NTLM Version Negotiation via Group Policy Object|setting]] is undefined. In Windows Server 2008 R2 and later, this  is configured to **Send NTLMv2 responses only**.
+> In Windows 7 and Windows Vista, this setting is undefined. In Windows Server 2008 R2 and later, this  is configured to **Send NTLMv2 responses only**.
 > \- [Microsoft ](https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level)
 
 Operating System | Default Policy Value
